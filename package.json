@@ -1,0 +1,28 @@
+{
+  "name": "wisdomshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "koa-body-parser": "^1.1.2",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": " nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbmwmx/WisdomShop.git"
+  },
+  "author": "ming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbmwmx/WisdomShop/issues"
+  },
+  "homepage": "https://github.com/zbmwmx/WisdomShop#readme"
+}

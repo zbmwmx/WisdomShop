@@ -22,11 +22,15 @@ response body
 error message 
 
 # status code  
-1
-200 202
-3 redirection
-404  412 
-500 internal error
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409
+100 Continue 101 Switching Protocols
+200 OK 201 Created 202 Accepted
+300 Multiple Choices 301 Moved Permanently 302 Found 303 See Other 
+304 Not Modified 307 Temporary Redirect 308 Permanent Redirect
+400 Bad Request 401 Unauthorized 403 Forbidden 404 Not Found
+405 Method Not Allowed 406 Not Acceptable 407 Proxy Authentication Required  
+408 Request Timeout 409 Conflict 410 Gone 422 Unprocessable Entity
+500 internal error 501 Not Implemented 502 Bad Gateway 503 Service Unavailable
 
 # mongo DB dataScheam design
 Schema--- Model --Document
